@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpplus",
+  "version": "${version}",
+  "name": "Plus Visual",
+  "description": "Plus Visual: меню с функциями, HUD, визуальные эффекты, оптимизация, автокоманды, метки, шалкер из инвентаря.",
+  "license": "MIT",
+  "icon": "assets/pvpplus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.pvpplus.PvpPlus"],
+    "client": ["dev.pvpplus.client.PvpPlusClient"]
+  },
+  "mixins": [
+    { "config": "pvpplus.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

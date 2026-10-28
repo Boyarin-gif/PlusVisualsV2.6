@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.pvpplus.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["HandledScreenAccessor", "SimpleOptionAccessor", "WorldMixin", "ItemStackMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
